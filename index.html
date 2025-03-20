@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalinda Cheung | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script  src="js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar">
+            <a href="#" class="logo">KLC</a>
+            <ul class="nav-links">
+                <a href="#home"><li>Home</li></a>
+                <a href="#skills"><li>About</li></a>
+                <a href="project.html"><li>Projects</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    </nav>
+
+    <!------------ Section1 ------------>
+    <section id="fontEndBanner">
+        <h1>KA LOK CHEUNG</h1>
+        <h2 id="fontEndBanner_title1">full stack developer</h2>
+        <h2 id="fontEndBanner_title2">ui ux designer</h2>
+        <!-- SVG Background -->
+        <div class="svg-background">
+            <svg width="1000" height="400" viewBox="0 0 1000 300" preserveAspectRatio="xMidYMid meet">
+
+                <g transform="rotate(-10 -120 150)">
+
+                    <path id="innerOrbitPath" d="M 930,250 a 450,120 0 1,1 -900,0 a 450,120 0 1,1 900,0"  
+                          fill="none" stroke="black" stroke-width="2" stroke-dasharray="8,8"/>
+                    <path id="orbitPath" d="M 930,250 a 450,140 0 1,1 -900,0 a 450,140 0 1,1 900,0"  
+                          fill="none" stroke="transparent"/>
+
+                    <image href="images/title_icon1.png" width="50" height="50">
+                        <animateMotion repeatCount="indefinite" dur="14s">
+                            <mpath href="#orbitPath"/>
+                        </animateMotion>
+                    </image>
+    
+                    <image href="images/title_icon2.png" width="50" height="50">
+                        <animateMotion repeatCount="indefinite" dur="14s" begin="-2.8s">
+                            <mpath href="#orbitPath"/>
+                        </animateMotion>
+                    </image>
+                    <image href="images/title_icon3.png" width="50" height="50">
+                        <animateMotion repeatCount="indefinite" dur="14s" begin="-5.6s">
+                            <mpath href="#orbitPath"/>
+                        </animateMotion>
+                    </image>
+                    <image href="images/title_icon4.png" width="50" height="50">
+                        <animateMotion repeatCount="indefinite" dur="14s" begin="-8.4s">
+                            <mpath href="#orbitPath"/>
+                        </animateMotion>
+                    </image>
+                    <image href="images/title_icon5.png" width="50" height="50">
+                        <animateMotion repeatCount="indefinite" dur="14s" begin="-11.2s">
+                            <mpath href="#orbitPath"/>
+                        </animateMotion>
+                    </image>
+                </g>
+            </svg>
+        </div>
+    </section>
+
+<!------------ Section2 ------------>
+    <section id="description">
+        <div class="container">
+           <h1>I’m a <span class="waterWave" data-text="developer">developer</span> & <span class="waterWave" data-text="UX/UI enthusiast">UX/UI enthusiast</span> based in Canada.</h1> 
+           <p>I design and develop intuitive, user-focused applications with a strong foundation in UX research and front-end development. As a Mobile Application Development and Strategy student at George Brown College, I’m passionate about creating seamless web and mobile experiences and collaborating with designers and developers.</p>
+        </div>
+    </section>
+
+  
+<!------------ Section3 ------------>
+    <section id="skills">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 section3Bg">
+                <div class="animation">
+                    <div class="anm_mod left delay overlapLeft hoverImageWrapper">
+                        <img src="images/section3Left.png" class="section3Left hoverImage">
+                    </div>
+                    <div class="anm_mod right fast overlapRight hoverImageWrapper">
+                        <img src="images/section3Right.png" class="section3Right hoverImage">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 section3Icon">
+                <div class="animation">
+                    <div class="anm_mod full">
+                        <img src="images/section3Icon.png">
+                        <h1>TECHNICAL SKILLS</h1>
+                        <h2>Programming Languages</h2>
+                        <p>Kotlin, SwiftUI, Java, JavaScript, Android SDK, Jetpack Components, React Native</p>
+                        <h2>Frameworks & Technologies</h2>
+                        <p>React, Bootstrap, .NET, WordPress, PHP, HTML5, CSS3, Node.js, Express.js, REST APIs</p>
+                        <h2>Database & Cloud Services</h2>
+                        <p>Firebase, MongoDB, MySQL, Amazon Web Services (AWS)</p>
+                        <h2>Design Tools</h2>
+                        <p>Adobe Photoshop, Adobe Illustrator, Adobe Premiere, Adobe After Effects</p>
+                        <h2>Others</h2>
+                        <p>GitHub (Version Control), Postman, SEO Optimization, VS Code, Xcode, Android Studio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+<!------------ Section4 ------------>
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="animation">
+                    <div class="anm_mod full">
+                      <h1>PROFESSIONAL EXPERIENCE</h1>
+                    </div>
+                </div>
+                     <div class="animation">
+                       <div class="anm_mod full">
+                           <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h3><span class="section4Type">Full time</span> <span class="section4Date">May 2023 - Jul 2024</span><div class="line"></div></h3>
+                            <h2>Analyst Programmer - Venturenix Limited, Hong Kong</h2>
+                              <ul>
+                               <li><p>Reduced page load time by 30% by optimizing web applications with JavaScript, HTML5, and PHP, improving user experience.</p></li>
+                               <li><p>Led software development initiatives by collaborating with designers and developers, increasing workflow efficiency by 20%.</p></li>
+                               <li><p>Performed rigorous code reviews, ensuring high-quality, scalable, and maintainable JavaScript and CSS implementations.</p></li>
+                               <li><p>Boosted user engagement by 15% and retention by 10% by revamping the client-facing portal and enhancing design responsiveness.</p></li>
+                               <li><p>Strong communication skills in translating technical requirements into intuitive design solutions for non-technical stakeholders.</p></li>
+                              </ul>
+                           </div>
+                       </div>
+                     </div>
+
+                     <div class="animation">
+                        <div class="anm_mod full">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                             <h3><span class="section4Type">Full time</span> <span class="section4Date">Sep 2019 - Apr 2023</span><div class="line"></div></h3>
+                             <h2>Analyst Programmer - Global Executive Consultants Ltd., Hong Kong</h2>
+                               <ul>
+                                <li><p>Developed and maintained high-traffic web applications using JavaScript, Node.js, and front-end frameworks, optimizing data retrieval by 40%.</p></li>
+                                <li><p>Implemented email automation workflows using server-side rendering (SSR) and REST APIs, improving efficiency in communication.</p></li>
+                                <li><p>Optimized CSS and JavaScript asset loading, reducing page load times by 25% and enhancing web application performance.</p></li>
+                                <li><p>Applied software development best practices, including version control, testing, and modular coding structures.</p></li>
+                                <li><p>Effective time management in leading multiple projects while consistently meeting deadlines.</p></li>
+                                    </ul>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="animation">
+                        <div class="anm_mod full">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                             <h3><span class="section4Type">Part time</span> <span class="section4Date">Sep 2017 - Aug 2019</span><div class="line"></div></h3>
+                             <h2>UI/UX Designer - NovaLab (Hong Kong) Limited, Hong Kong</h2>
+                               <ul>
+                                <li><p>Doubled mobile user engagement by implementing mobile-first design principles, ensuring responsiveness and cross-platform compatibility.</p></li>
+                                <li><p>Enhanced website usability by improving navigation, layouts, and interactivity for WordPress and custom-built websites, increasing user engagement.</p></li>
+                                <li><p>Boosted customer satisfaction by 20% by optimizing UI/UX for e-commerce platforms, leading to higher conversion rates using HTML5, CSS3, and JavaScript.</p></li>
+                                <li><p>Improved organic traffic by 30% by implementing SEO-optimized web designs, enhancing search rankings and increasing visibility.</p></li>
+                               </ul>
+                            </div>
+                        </div>
+                      </div>
+                     
+            </div>
+        </div>
+    </section>
+
+<!------------ Contact Section ------------>
+<section id="contact" style="padding-top: 50px;">
+    <div class="container">
+        <div class="anm_mod full">
+            <h1>Let's Connect!</h1>
+          </div>
+        <h2>Feel free to reach out for collaborations, opportunities, or just to say hi!</h2>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:kalokcheung@example.com">kalokcheung311@gmail.com</a></p>
+            
+            <div class="social-links">
+                <a href="https://github.com/kalindacheung" target="_blank"><img src="images/githubIcon.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/kalindacheung/" target="_blank"><img src="images/linkedinIcon.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/kalindacheung/" target="_blank"><img src="images/instagramIcon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <footer>
+        <p>Connect with me: <a href="https://github.com/kalindacheung">GitHub</a> | <a href="https://www.instagram.com/kalindacheung/">Instagram</a> | <a href="https://www.linkedin.com/in/kalindacheung/">LinkedIn</a></p>
+        <p>&copy; 2025 KA LOK CHEUNG</p>
+    </footer>
+
+
+
+</body>
+</html>
