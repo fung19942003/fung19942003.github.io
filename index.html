@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jeffrey Lai's personal portfolio showcasing AI projects, software development experience, and technical skills in Python, JavaScript, TensorFlow, and more.">
+  
+    <title>Jeffrey Lai | AI Engineer & Software Developer Portfolio</title>
+  
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourdomain.com/" />
+  
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Jeffrey Lai | Portfolio" />
+    <meta property="og:description" content="Explore AI projects, tech skills, and software engineering experience of Jeffrey Lai." />
+    <meta property="og:image" content="images/preview.png" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:type" content="website" />
+  
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jeffrey Lai | Portfolio" />
+    <meta name="twitter:description" content="Explore AI projects, tech skills, and software engineering experience of Jeffrey Lai." />
+    <meta name="twitter:image" content="images/preview.png" />
+  
+    <!-- Fonts & CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+    <!-- Optional: Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="top"></div>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Jeffrey Portfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="overlay" id="overlay"></div>
+  <main >
+
+  <section class="intro py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5 order-1 order-md-2 text-center">
+          <img src="images/about.png" alt="Jeffrey Lai" class="section1_img">
+        </div>
+        <div class="col-md-7 order-2 order-md-1 text-start">
+          <h1 class="section1_title">
+            <span id="typed-text"></span><span id="typed-name" class="section1_name"></span><span class="typing-cursor">|</span>
+          </h1>
+          <p class="section1_subtitle">AI Engineer | Data Scientist | Helpdesk Support</p>
+          <p class="lead location-line">
+            <img src="images/location.png" alt="Location" class="location-icon">
+            Toronto, CA
+          </p>
+          <p class="text-muted">
+            Proficient in Python, SQL, and JavaScript, with extensive experience in leveraging these languages for data processing, predictive modeling, and actionable insights. Adept at building scalable AI solutions, optimizing algorithms, and transforming raw data into meaningful business strategies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats py-3">
+    <div class="container">
+      <div class="row text-center justify-content-center mb-4">
+        <div class="col-lg-10">
+          <p class="text-muted">
+            With over 5 years of experience in IT support and software development, I’ve supported 750+ users, resolved technical issues, and managed systems like Active Directory and Windows environments. Skilled in Java, Python, JavaScript, and SQL, I’ve built custom reports with Jasper Reports and implemented system enhancements. I’m a quick learner with a problem-solving mindset, focused on minimizing downtime and optimizing technology solutions.
+          </p>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center">
+        <div class="col-6 col-md-4 stat-box mb-4">
+          <h2 class="count display-3 fw-bold" data-target="5">0</h2>
+          <p class="small-text">
+            years of experience in IT support<br>
+            and software development
+          </p>
+        </div>
+        <div class="col-6 col-md-4 stat-box mb-4">
+          <h2 class="count display-3 fw-bold" data-target="750">0</h2>
+          <p class="small-text">
+            users supported through<br>
+            technical assistance
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="technical-skills py-3">
+    <div class="container">
+      <div class="row align-items-start">   
+        <!-- LEFT: Image + Section Title -->
+        <div class="col-md-5 text-center mb-4 mb-md-0">
+          <img src="images/laptop.png" alt="Laptop" class="img-fluid mb-3" style="max-height: 450px;">
+          <h2 class="fw-bold section-title">
+            <span class="highlight-blue">Technical</span> <span class="outline-text">Skills</span>
+          </h2>
+        </div>
+  
+        <!-- RIGHT: Skill Cards -->
+        <div class="col-md-7">
+          <div class="row g-4">
+            
+            <!-- Skill Card -->
+            <div class="col-6">
+              <div class="border rounded p-3 text-center h-100 shadow-sm skill-card">
+                <img src="images/skills1.png" alt="Python" style="width: 40px;" class="mb-2">
+                <h5 class="fw-bold">Programming Languages /Frameworks</h5>
+                <p class="small text-muted">Java, JavaScript, PHP, Python, HTML5, CSS, Bootstrap</p>
+              </div>
+            </div>
+  
+            <!-- Repeat for each skill -->
+            <div class="col-6">
+              <div class="border rounded p-3 text-center h-100 shadow-sm skill-card">
+                <img src="images/skills2.png" alt="TensorFlow" style="width: 40px;" class="mb-2">
+                <h5 class="fw-bold">Database</h5>
+                <p class="small text-muted">MySQL, MongoDB</p>
+              </div>
+            </div>
+  
+            <div class="col-6">
+              <div class="border rounded p-3 text-center h-100 shadow-sm skill-card">
+                <img src="images/skills3.png" alt="OpenCV" style="width: 40px;" class="mb-2">
+                <h5 class="fw-bold">Data Visualization & Reporting Tools</h5>
+                <p class="small text-muted">Power BI, Tableau, Jaspersoft Report</p>
+              </div>
+            </div>
+  
+            <div class="col-6">
+              <div class="border rounded p-3 text-center h-100 shadow-sm skill-card">
+                <img src="images/skills4.png" alt="Git" style="width: 40px;" class="mb-2">
+                <h5 class="fw-bold">Python Libraries</h5>
+                <p class="small text-muted">NumPy, SciPy, Pandas, Requests, and other data processing libraries</p>
+              </div>
+            </div>
+  
+            <div class="col-6">
+              <div class="border rounded p-3 text-center h-100 shadow-sm skill-card">
+                <img src="images/skills5.png" alt="Docker" style="width: 40px;" class="mb-2">
+                <h5 class="fw-bold">AI/ML</h5>
+                <p class="small text-muted">TensorFlow, PyTorch, Large Language Models, Prompt Engineering</p>
+              </div>
+            </div>
+  
+            <div class="col-6">
+              <div class="border rounded p-3 text-center h-100 shadow-sm skill-card">
+                <img src="images/skills6.png" alt="SQL" style="width: 40px;" class="mb-2">
+                <h5 class="fw-bold">Version Control Systems</h5>
+                <p class="small text-muted"> SVN, Git</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="experience" class="experience py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">
+        <span class="highlight-blue">Professional</span> <span class="outline-text">Experience</span>
+      </h2>
+  
+      <div class="timeline-wrapper">
+        <div class="timeline-start-circle"></div>
+        <!-- TIMELINE ITEM -->
+        <div class="timeline-item left">
+          <div class="timeline-content animate-on-scroll">
+            <div class="timeline-meta d-flex  align-items-center gap-3 mb-3">
+              <span class="tag">FULL-TIME</span>
+              <span class="timeline-date">Aug 2023 – Jul 2024</span>
+            </div>
+            <h4 class="timeline-role">Programmer</h4>
+            <p class="timeline-company">Automated Systems (H.K.) Limited</p>
+            <ul>
+              <li>
+                <span class="highlight">Enhanced system stability and user satisfaction</span>
+                by resolving over <span class="highlight">100 critical and recurring bugs</span> in an HR system built on a
+                <span class="highlight">Java framework</span> through debugging and performance optimization.
+              </li>
+            
+              <li>
+                <span class="highlight">Streamlined business reporting processes</span>
+                by implementing enhancements in the reporting system using
+                <span class="highlight">Jasper Reports</span> to meet diverse organizational needs.
+              </li>
+            
+              <li>
+                <span class="highlight">Achieved 99% accuracy in system updates</span>
+                by executing rigorous result validation and conducting thorough testing of enhancements prior to deployment.
+              </li>
+            
+              <li>
+                <span class="highlight">Facilitated seamless collaboration across teams</span>
+                by utilizing <span class="highlight">SVN version control</span> to effectively track, manage, and coordinate code changes.
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <!-- TIMELINE ITEM -->
+        <div class="timeline-item right">
+          <div class="timeline-content animate-on-scroll">
+            <div class="timeline-meta d-flex  align-items-center gap-3 mb-3">
+              <span class="tag">FULL-TIME</span>
+              <span class="timeline-date">Sep 2021- Apr2023</span>
+            </div>
+            <h4 class="timeline-role">Contract Junior Programmer</h4>
+            <p class="timeline-company">Hong Kong Post Office</p>
+            <ul>
+              <li>
+                <span class="highlight">Streamlined IT operations</span> across 
+                <span class="highlight">120 post office locations</span> by delivering timely help desk support, 
+                resolving hardware and application issues to <span class="highlight">minimize downtime</span>.
+              </li>
+            
+              <li>
+                <span class="highlight">Completed a large-scale system upgrade project</span> by performing 
+                <span class="highlight">PC data migration</span> and upgrading systems from 
+                <span class="highlight">Windows 8 to Windows 10</span>, ensuring minimal disruption to daily operations.
+              </li>
+            
+              <li>
+                <span class="highlight">Assisted with software installations, patch management, and system updates</span> 
+                to enhance <span class="highlight">system security and stability</span>.
+              </li>
+            
+              <li>
+                <span class="highlight">Optimized user management and security protocols</span> by managing 
+                <span class="highlight">group policies</span> and <span class="highlight">user accounts within Active Directory</span>, 
+                enhancing operational efficiency and system security.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- TIMELINE ITEM -->
+        <div class="timeline-item left">
+          <div class="timeline-content animate-on-scroll">
+            <div class="timeline-meta d-flex  align-items-center gap-3 mb-3">
+              <span class="tag">FULL-TIME</span>
+              <span class="timeline-date">Aug 2019 - Mar 2021</span>
+            </div>
+            <h4 class="timeline-role">Specialist, IT Infrastructure</h4>
+            <p class="timeline-company">DKSH (HK) Ltd</p>
+            <ul>
+              <li>
+                <span class="highlight">Delivered high-quality IT support services</span> to over 
+                <span class="highlight">750 computer users</span> by efficiently managing service requests, incidents, and escalations through a 
+                <span class="highlight">ticketing system</span>, including <span class="highlight">ServiceNow</span>, while maintaining 
+                <span class="highlight">SLA targets</span> and ensuring user satisfaction.
+              </li>
+            
+              <li>
+                <span class="highlight">Performed data migration, hard disk replacements, and system imaging</span> to support 
+                <span class="highlight">device upgrades</span> and user transitions with <span class="highlight">minimal disruption</span>.
+              </li>
+            
+              <li>
+                <span class="highlight">Boosted user productivity</span> and resolved technical challenges by 
+                <span class="highlight">troubleshooting Microsoft-related software</span>, including 
+                <span class="highlight">Word, Excel, SharePoint, and Azure</span>, through proactive issue resolution and user guidance.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section id="projects" class="projects py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">
+      <span class="highlight-blue">Projects</span>
+    </h2>
+
+ <!-- Project 1 -->
+<div class="row project-item align-items-center mb-5 projectPadding">
+  <div class="col-md-6 position-relative">
+    <span class="project-number">1</span>
+    <div class="project-image-box bg-light shadow-sm d-flex justify-content-center align-items-center">
+      <img src="images/project1.png" alt="Dish Cleanliness Classification" style="width: 500px; height: auto; border-radius: 8px;">
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h4 class="project-title">Dish Cleanliness Classification</h4>
+    <p class="project-subtitle"><strong>Python, TensorFlow, ResNet18</strong></p>
+    <p class="text-muted">
+      Developed a deep learning model to classify whether dishes are clean or dirty using images from a dishwasher dataset.
+      Implemented a ResNet18 architecture for robust image feature extraction and fine-tuned it using transfer learning techniques.
+      Applied data preprocessing techniques such as augmentation and normalization to improve model generalization.
+      Achieved high classification accuracy in the Kaggle competition organized by Whirlpool Corporation.
+    </p>
+    <a href="https://www.kaggle.com/code/laicheukfung/dish-cleanliness-classifier-resnet18" target="_blank" class="btnproject mt-3">
+      View Competition
+    </a>
+  </div>
+</div>
+
+    <!-- Project 2 -->
+    <div class="row project-item align-items-center flex-md-row-reverse mb-5">
+      <div class="col-md-6 position-relative">
+        <span class="project-number">2</span>
+        <div class="project-image-box bg-dark shadow-sm d-flex justify-content-center align-items-center">
+          <img src="images/project2.png" alt="Sentiment Analysis Project" style="max-width: 100%; height: auto; border-radius: 8px;">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="project-title">Sentiment Analysis with BiLSTM</h4>
+        <p class="project-subtitle"><strong>Python, TensorFlow</strong></p>
+        <p class="text-muted">
+          Trained a Bidirectional LSTM model on Twitter data to classify sentiment (positive, negative, neutral) using embedded text vectors.<br/>
+          Applied preprocessing techniques including tokenization, padding, and word embeddings for robust text modeling.
+        </p>
+        <a href="https://www.kaggle.com/code/laicheukfung/training-bidirectional-lstm-model-using-tweetsdata" target="_blank" class="btnproject mt-3">
+          View Project
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="row project-item align-items-center mb-5">
+      <div class="col-md-6 position-relative">
+        <span class="project-number">3</span>
+        <div class="project-image-box bg-primary shadow-sm d-flex justify-content-center align-items-center">
+          <video autoplay muted loop playsinline style="max-width: 100%; max-height: 100%; border-radius: 8px;">
+            <source src="images/gen_fire.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="project-title">Fire and Smoke Detection System</h4>
+        <p class="project-subtitle"><strong>Python, YOLOv6, OpenCV</strong></p>
+        <p class="text-muted">
+          Trained a YOLOv5 model to detect fire and smoke in real-time using custom image datasets.<br />
+          Built an inference pipeline with OpenCV for live detection and alerting from video feeds and camera input.
+        </p>
+        <a href="https://github.com/fung19942003/Fire-and-Smoke-Detection-System" target="_blank" class="btnproject mt-3">
+          View Project
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left: Illustration -->
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="images/contact.png" alt="Contact Illustration" class="img-fluid" style="max-height: 400px;">
+        <h2 class="section-title-contact mt-3">
+          <span class="highlight-blue">CONTACT</span>
+        </h2>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="col-md-7 text-center">
+        <p class="contact-intro">
+          Always open to 
+          <span class="highlight outline">discussing new projects, creative ideas, or opportunities</span> 
+          to be part of your vision.
+        </p>
+        <p class="text-muted mb-4">
+          Whether you're a recruiter, a potential collaborator, or just want to say hi — feel free to reach out!
+        </p>
+
+        <p class="contact-detail mb-1">Email: fung19942004@gmail.com</p>
+        <p class="contact-detail">LinkedIn: <a href="https://linkedin.com/in/cheuk-fung-lai" target="_blank">linkedin.com/in/cheuk-fung-lai</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+</main>
+</body>
+<script src="script.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
